@@ -9,7 +9,7 @@ while True:
     # your Steam API key
     API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-    # user's Steam ID 64 - only works on friends
+    # user's Steam ID 64
     user = "76561197960435530"
 
     # path to the file you wish for the logs to be written to
