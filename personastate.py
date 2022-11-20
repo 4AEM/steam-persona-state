@@ -27,11 +27,18 @@ while True:
 
     log = open("{}".format(logfile), "a")
 
-    if  personastate == 0:
+    if personastate == 0:
+        log = open("{}".format(logfile), "a")
         log.write(str(now) + " - Offline" + "\n")
+        log.close()
+
     elif personastate == 1:
+        log = open("{}".format(logfile), "a")
         log.write(str(now) + " - Online" + "\n")
+        log.close()
+
     elif personastate == 3:
+        log = open("{}".format(logfile), "a")
         log.write(str(now) + " - Away" + "\n")
         log.close()
 
